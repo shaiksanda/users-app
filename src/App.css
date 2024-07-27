@@ -1,0 +1,37 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.list-container {
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  font-family: 'Roboto';
+  font-size: 32px;
+  color: #183b56;
+  margin-bottom: 30px;
+}
+
+.input {
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  width: 200px;
+  height: 30px;
+  background-color: gray;
+  border-width: 0px;
+  border-radius: 6px;
+  color: black;
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  font-size: 24px;
+}
+
+input:hover {
+  background-color: greenyellow;
+}
